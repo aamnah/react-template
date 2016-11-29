@@ -6,13 +6,13 @@ A basic getting started template for a React project (Webpack, Babel, React, SAS
 You can run the following scripts:
 
 ```
-npm run build
+npm build
 ```
 
 which is equivalent to: `webpack -p --progress --colors`
 
 ```
-npm run start
+npm start
 ```
 
 which is equivalent to: `webpack-dev-server --port 8080`
