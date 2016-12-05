@@ -9,7 +9,7 @@
 
   "scripts": {
     "build": "webpack -p --progress --colors",
-    "start": "webpack-dev-server --port 8080"
+    "start": "webpack-dev-server --inline --hot --port 8080"
   },
 
   "devDependencies": {
