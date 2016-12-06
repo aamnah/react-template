@@ -1,10 +1,15 @@
-// Libs
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 
-// Components
+import App from './components/App'
 
 // Styles
 require('./styles.scss')
 
-// Render
+
+
+
+ReactDOM.render(
+  <App />,
+  document.querySelector('#root')
+)
